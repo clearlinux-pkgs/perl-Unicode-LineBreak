@@ -4,12 +4,12 @@
 #
 Name     : perl-Unicode-LineBreak
 Version  : 2019.001
-Release  : 1
+Release  : 2
 URL      : https://cpan.metacpan.org/authors/id/N/NE/NEZUMI/Unicode-LineBreak-2019.001.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/N/NE/NEZUMI/Unicode-LineBreak-2019.001.tar.gz
 Summary  : UAX #14 Unicode Line Breaking Algorithm
 Group    : Development/Tools
-License  : Artistic-1.0-Perl GPL+ GPL-1.0
+License  : Artistic-1.0-Perl GPL-1.0
 Requires: perl-Unicode-LineBreak-lib = %{version}-%{release}
 Requires: perl-Unicode-LineBreak-license = %{version}-%{release}
 BuildRequires : buildreq-cpan
@@ -26,7 +26,6 @@ Summary: dev components for the perl-Unicode-LineBreak package.
 Group: Development
 Requires: perl-Unicode-LineBreak-lib = %{version}-%{release}
 Provides: perl-Unicode-LineBreak-devel = %{version}-%{release}
-Requires: perl-Unicode-LineBreak = %{version}-%{release}
 Requires: perl-Unicode-LineBreak = %{version}-%{release}
 
 %description dev
