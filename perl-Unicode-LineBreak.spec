@@ -4,7 +4,7 @@
 #
 Name     : perl-Unicode-LineBreak
 Version  : 2019.001
-Release  : 5
+Release  : 6
 URL      : https://cpan.metacpan.org/authors/id/N/NE/NEZUMI/Unicode-LineBreak-2019.001.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/N/NE/NEZUMI/Unicode-LineBreak-2019.001.tar.gz
 Summary  : UAX #14 Unicode Line Breaking Algorithm
@@ -104,15 +104,15 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/POD2/JA/Text/LineFold.pod
-/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/POD2/JA/Unicode/GCString.pod
-/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/POD2/JA/Unicode/LineBreak.pod
-/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/Text/LineFold.pm
-/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/Unicode/GCString.pm
-/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/Unicode/GCString.pod
-/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/Unicode/LineBreak.pm
-/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/Unicode/LineBreak.pod
-/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/Unicode/LineBreak/Constants.pm
-/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/Unicode/LineBreak/Defaults.pm.sample
-/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/auto/Unicode/LineBreak/LineBreak.so
-/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/auto/sombok/extralibs.ld
+/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/POD2/JA/Text/LineFold.pod
+/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/POD2/JA/Unicode/GCString.pod
+/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/POD2/JA/Unicode/LineBreak.pod
+/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/Text/LineFold.pm
+/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/Unicode/GCString.pm
+/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/Unicode/GCString.pod
+/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/Unicode/LineBreak.pm
+/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/Unicode/LineBreak.pod
+/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/Unicode/LineBreak/Constants.pm
+/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/Unicode/LineBreak/Defaults.pm.sample
+/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/auto/Unicode/LineBreak/LineBreak.so
+/usr/lib/perl5/vendor_perl/5.32.1/x86_64-linux-thread-multi/auto/sombok/extralibs.ld
