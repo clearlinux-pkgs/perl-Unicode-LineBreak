@@ -4,7 +4,7 @@
 #
 Name     : perl-Unicode-LineBreak
 Version  : 2019.001
-Release  : 16
+Release  : 17
 URL      : https://cpan.metacpan.org/authors/id/N/NE/NEZUMI/Unicode-LineBreak-2019.001.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/N/NE/NEZUMI/Unicode-LineBreak-2019.001.tar.gz
 Summary  : UAX #14 Unicode Line Breaking Algorithm
